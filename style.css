@@ -60,3 +60,84 @@ a:hover {
   padding-bottom: 10px;
   border-bottom: 4px solid #0065fc;
 }
+
+.iconLocalisation {
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  padding: 15px;
+  width: 2%;
+  background-image: url(img/icone/map-marker-alt-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  width: 25px;
+}
+
+.cityCherche {
+  border: 1px solid rgb(226, 226, 226);
+  border-color: #dadada;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+}
+.containerForm {
+  display: flex;
+  justify-content: center;
+}
+
+#containtForm {
+  display: flex;
+  align-content: center;
+  height: 7%;
+}
+.submitRecherche {
+  background: #0065fc;
+  color: #fff;
+  font-size: 0px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #0065fc;
+  background-image: url(img/icone/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5vw;
+  width: 60px;
+  height: 50px;
+}
+.submitBtn {
+  margin-left: -10px;
+}
+
+/* filter container */
+
+.containerFilter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.toggleContaint {
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.toggleContaint p {
+  margin-left: 20px;
+  font-size: 1em;
+}
+.toggleBtn {
+  background-color: grey;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.toggleBtn img {
+  width: 30px;
+}
