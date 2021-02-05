@@ -1,0 +1,62 @@
+body {
+  /* padding: 2% 5% 0% 5%; */
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(font/static/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: Raleway-gras;
+  src: url(font/static/Raleway-Black.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.3em;
+}
+a:hover {
+  color: #0065fc;
+}
+
+#linkHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  width: 70%;
+}
+
+.signUp {
+  margin-right: 20px;
+  font-family: Raleway;
+  font-weight: 900;
+  color: #0065fc;
+}
+.locations {
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 45%;
+}
+.locations:hover {
+  color: #0065fc;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #0065fc;
+}
+
+.activity {
+  margin-top: 30px;
+  text-align: end;
+  padding-right: 20px;
+  width: 45%;
+}
+.activity:hover {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #0065fc;
+}
