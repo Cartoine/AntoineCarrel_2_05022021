@@ -2,6 +2,15 @@ body {
   /* padding: 2% 5% 0% 5%; */
   font-family: Raleway;
   font-weight: 300;
+  /* padding: 0px; */
+  margin: 0px;
+  margin-top: 20px;
+  /* padding: 20px; */
+}
+
+main {
+  padding: 30px;
+  /* background-color: #0065fc; */
 }
 
 @font-face {
@@ -9,10 +18,21 @@ body {
   src: url(font/static/Raleway-Regular.ttf);
 }
 @font-face {
-  font-family: Raleway-gras;
+  font-family: Raleway-Black;
   src: url(font/static/Raleway-Black.ttf);
 }
-
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(font/static/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: Raleway-medium;
+  src: url(font/static/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: Raleway-bold;
+  src: url(font/static/Raleway-Bold.ttf);
+}
 a {
   text-decoration: none;
   color: grey;
@@ -21,7 +41,6 @@ a {
 a:hover {
   color: #0065fc;
 }
-
 #linkHeader {
   display: flex;
   flex-wrap: wrap;
@@ -31,6 +50,7 @@ a:hover {
 
 .logoContainer {
   width: 70%;
+  padding-left: 20px;
 }
 
 .signUp {
@@ -43,6 +63,7 @@ a:hover {
   margin-top: 30px;
   padding-left: 20px;
   width: 45%;
+  text-align: center;
 }
 .locations:hover {
   color: #0065fc;
@@ -55,6 +76,7 @@ a:hover {
   text-align: end;
   padding-right: 20px;
   width: 45%;
+  text-align: center;
 }
 .activity:hover {
   padding-bottom: 10px;
@@ -118,26 +140,103 @@ a:hover {
   justify-content: space-between;
 }
 .toggleContaint {
-  border: 1px solid grey;
+  border: 2px solid #f2f2f2;
   display: flex;
   align-items: center;
   border-radius: 30px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   margin-right: 10px;
   margin-top: 10px;
 }
 .toggleContaint p {
   margin-left: 20px;
+  margin-right: 20px;
   font-size: 1em;
+  font-family: Raleway-bold;
 }
 .toggleBtn {
-  background-color: grey;
+  background-color: #deebff;
   border-radius: 30px;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   display: flex;
   justify-content: center;
 }
 .toggleBtn img {
+  width: 15px;
+}
+
+.infoDispo {
+  display: flex;
+  align-items: center;
+}
+.infoDispo img {
   width: 30px;
+  margin-right: 20px;
+}
+
+/* popular section */
+.popularSection {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+.titlePopularContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.share {
+  width: 30px;
+}
+
+.popularCard {
+  display: flex;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.popularCard:hover {
+  cursor: pointer;
+  color: #0065fc;
+  box-shadow: 0px 0px 20px 0px #0065fc27;
+}
+.imgCard {
+  min-width: 170px;
+  height: 150px;
+  max-height: 250px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+}
+.soleilDuMatin {
+  background-image: url(img/hebergements/4_small/hotel-le-soleil-du-matin.jpg);
+}
+.auCoeurDeLeau {
+  background-image: url(img/hebergements/4_small/au-coeur-de-l-eau.jpg);
+}
+.hotelBandB {
+  background-image: url(img/hebergements/4_small/hotel-tout-bleu-et-blanc.jpg);
+}
+.containtPopularCard {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.titlePopularCard {
+  font-family: Raleway-bold;
+  font-size: 1em;
+}
+.star {
+  display: flex;
+}
+.starCard {
+  width: 15px;
 }
