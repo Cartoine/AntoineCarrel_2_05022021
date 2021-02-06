@@ -307,3 +307,15 @@ a:hover {
 .longchamp {
   background-image: url(img/activites/4_small/parc-longchamp.jpg);
 }
+
+footer {
+  padding: 10px 0px 20px 30px;
+  background-color: #f2f2f2;
+  /* margin-top: 5%; */
+}
+footer section {
+  margin-top: 50px;
+}
+footer section h3 {
+  font-family: Raleway-bold;
+}
