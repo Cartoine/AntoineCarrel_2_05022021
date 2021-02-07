@@ -13,37 +13,46 @@ main {
   font-family: Raleway;
   src: url(font/static/Raleway-Regular.ttf);
 }
+
 @font-face {
   font-family: Raleway-Black;
   src: url(font/static/Raleway-Black.ttf);
 }
+
 @font-face {
   font-family: Raleway-SemiBold;
   src: url(font/static/Raleway-SemiBold.ttf);
 }
+
 @font-face {
   font-family: Raleway-medium;
   src: url(font/static/Raleway-Medium.ttf);
 }
+
 @font-face {
   font-family: Raleway-bold;
   src: url(font/static/Raleway-Bold.ttf);
 }
+
 a {
   text-decoration: none;
   color: grey;
   font-size: 1.3em;
 }
+
 a:hover {
   color: #0065fc;
 }
+
 body {
   font-size: 12px;
 }
+
 h1 {
   font-family: Raleway-bold;
   font-size: 1.5em;
 }
+
 h2,
 h3 {
   font-family: Raleway-bold;
@@ -52,6 +61,7 @@ h3 {
 p {
   font-size: 1em;
 }
+
 .cardHover:hover {
   cursor: pointer;
   color: #0065fc;
@@ -63,34 +73,42 @@ header {
   margin-left: 40px;
   margin-right: 40px;
 }
+
 .logoContainer {
   width: 70%;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 nav a {
   color: #0065fc;
 }
+
 nav a:hover {
   color: rgba(117, 117, 117, 0.5);
 }
+
 .register {
   order: 1;
   padding-top: 30px;
 }
+
 .underHeader {
   display: flex;
   justify-content: space-between;
   width: 15%;
 }
+
 .linkHeader {
   padding-top: 30px;
   margin-left: 40px;
 }
+
 .register:hover,
 .linkHeader:hover {
   padding-top: 28px;
@@ -161,6 +179,7 @@ nav a:hover {
   font-size: 1em;
   font-family: Raleway-bold;
 }
+
 .toggleBtn {
   background-color: #deebff;
   border-radius: 30px;
@@ -169,6 +188,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
 }
+
 .toggleBtn img {
   width: 15px;
 }
@@ -178,16 +198,19 @@ nav a:hover {
   align-items: center;
   margin-top: 40px;
 }
+
 .infoDispo img {
   width: 30px;
   margin-right: 20px;
 }
+
 /* first container */
 .firstContainer {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+
 /* popular section */
 .popularSection {
   display: flex;
@@ -202,8 +225,13 @@ nav a:hover {
 .titlePopularContainer {
   display: flex;
   justify-content: space-between;
-  font-size: 1.3em;
+  font-size: 1vw;
 }
+
+.titlePopularContainer p {
+  font-size: 1vw;
+}
+
 .share {
   width: 20px;
 }
@@ -226,32 +254,40 @@ nav a:hover {
   border: none;
   border-radius: 15px 0px 0px 15px;
 }
+
 .containtPopularCard {
   padding-left: 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
 }
+
 .containtPopularCard section {
   width: 100%;
 }
+
 .containtPopularCard section p {
-  font-size: 12px;
+  font-size: 1vw;
   margin-top: -10px;
+  /* background-color: red; */
 }
+
 /* houssing Marseille */
 .titlePopularCard {
   font-family: Raleway-bold;
   font-size: 1.4em;
   margin-top: 5px;
 }
+
 .star {
   display: flex;
   margin-top: -10px;
 }
+
 .starCard {
   width: 12px;
 }
+
 /* houssing Marseille */
 .houssingContainer {
   display: flex;
@@ -262,12 +298,14 @@ nav a:hover {
   background-color: #f2f2f2;
   width: 70%;
 }
+
 .houssingContainer h2 {
-  font-size: 2em;
+  font-size: 2vw;
   margin-top: 40px;
   margin-left: 40px;
   display: inline-flex;
 }
+
 .groupOfCard {
   display: flex;
   flex-direction: row;
@@ -287,6 +325,7 @@ nav a:hover {
   align-content: flex-start;
   width: 18vw;
 }
+
 .imgHoussingCard {
   max-width: 100%;
   height: 110px;
@@ -295,13 +334,16 @@ nav a:hover {
   border: none;
   border-radius: 15px 15px 0px 0px;
 }
+
 .containtHoussingCard {
   font-size: 12px;
   padding-left: 15px;
 }
+
 .containtHoussingCard p {
   margin-top: -10px;
 }
+
 .seeMore {
   margin-top: 40px;
   margin-left: 40px;
@@ -312,21 +354,30 @@ nav a:hover {
 /* Activity in Marseille */
 .activitySection {
 }
+
+.titleActivity {
+  font-size: 1vw;
+  margin-top: 50px;
+}
+
 .cardContainer {
   display: flex;
 }
+
 .cardGroupOne {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-right: 25px;
 }
+
 .cardGroupTwo {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-left: 25px;
 }
+
 .activityCardLong {
   width: 42%;
   height: 400px;
@@ -334,18 +385,21 @@ nav a:hover {
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
 }
+
 .imgActivityCardLong {
   height: 85%;
   background-position: center;
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
 }
+
 aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
 }
+
 .activityCardUper {
   width: 100%;
   height: 220px;
@@ -353,6 +407,7 @@ aside {
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
 }
+
 .activityCardDown {
   min-width: 100%;
   height: 140px;
@@ -370,7 +425,7 @@ aside {
 
 .titleActivityCard {
   font-family: Raleway-bold;
-  font-size: 1.4em;
+  font-size: 1vw;
 }
 
 footer {
@@ -380,9 +435,11 @@ footer {
   background-color: #f2f2f2;
   padding-right: 30%;
 }
+
 footer section {
   margin-top: 50px;
 }
+
 footer section h3 {
   font-family: Raleway-bold;
 }
@@ -419,6 +476,14 @@ footer section h3 {
   }
   nav a:hover {
     color: #0065fc;
+  }
+  .titleActivity {
+    font-size: 3vw;
+    margin-top: 50px;
+  }
+  .titleActivityCard {
+    font-family: Raleway-bold;
+    font-size: 3vw;
   }
   .logoContainer {
     width: 40%;
@@ -539,7 +604,8 @@ footer section h3 {
   }
 
   .titlePopularContainer {
-    font-size: 1em;
+    font-size: 3vw;
+    /* background-color: red; */
   }
 
   .popularCard {
@@ -551,16 +617,13 @@ footer section h3 {
     height: 110px;
     max-height: 250px;
   }
-  .containtPopularCard {
-    /* padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around; */
-    /* background-color: red; */
-  }
+
   /* houssing Marseille */
   .titlePopularCard {
-    font-size: 1em;
+    font-size: 3vw;
+  }
+  .containtPopularCard section p {
+    font-size: 3vw;
   }
 
   /* houssing Marseille */
@@ -569,6 +632,12 @@ footer section h3 {
     border-radius: 0px;
     background-color: #fff;
     width: 100%;
+  }
+  .titleHoussing {
+    margin-left: -40px;
+  }
+  .titleHoussing h2 {
+    font-size: 4vw;
   }
   .groupOfCard {
     flex-direction: column;
@@ -635,48 +704,103 @@ footer section h3 {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .firstContainer {
+    flex-wrap: wrap;
+  }
+  .titlePopularContainer {
+    justify-content: center;
+  }
+  .titlePopularContainer h2 {
+    margin-right: 20px;
+  }
+  .popularSection {
+    width: 100%;
+    padding: 0px;
+    width: 100%;
+  }
+  .containtPopSect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .popularCard {
+    flex-direction: row;
+    width: 30%;
+  }
+  .houssingContainer {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .houssingCard {
+    width: 250px;
+  }
+  .imgActivityCardLong {
+    height: 90%;
+  }
+  .imgActivityCard {
+    height: 80%;
+  }
+}
+
 .soleilDuMatin {
   background-image: url(img/hebergements/4_small/hotel-le-soleil-du-matin.jpg);
 }
+
 .auCoeurDeLeau {
   background-image: url(img/hebergements/4_small/au-coeur-de-l-eau.jpg);
 }
+
 .hotelBandB {
   background-image: url(img/hebergements/4_small/hotel-tout-bleu-et-blanc.jpg);
 }
+
 .aubergeCannebiere {
   background-image: url(img/hebergements/4_small/auberge-de-la-cannebiere.jpg);
 }
+
 .hotelDuPort {
   background-image: url(img/hebergements/4_small/hotel-du-port.jpg);
 }
+
 .hotelMouettes {
   background-image: url(img/hebergements/4_small/hotel-les-mouettes.jpg);
 }
+
 .hotelMer {
   background-image: url(img/hebergements/4_small/hotel-de-la-mer.jpg);
 }
+
 .aubergePanier {
   background-image: url(img/hebergements/4_small/auberge-le-panier.jpg);
 }
+
 .chezAmina {
   background-image: url(img/hebergements/4_small/hotel-chez-amina.jpg);
 }
+
 .vieuxPort {
   background-image: url(img/activites/4_small/vieux-port.jpg);
 }
+
 .pomegues {
   background-image: url(img/activites/4_small/fort-de-Pomegues.jpg);
 }
+
 .frioul {
   background-image: url(img/activites/4_small/iles-du-frioul.jpg);
 }
+
 .calanques {
   background-image: url(img/activites/4_small/parc-national-des-calanques.jpg);
 }
+
 .notreDame {
   background-image: url(img/activites/4_small/notre-dame-de-la-garde.jpg);
 }
+
 .longchamp {
   background-image: url(img/activites/4_small/parc-longchamp.jpg);
 }
