@@ -356,9 +356,6 @@ nav a:hover {
 }
 
 /* Activity in Marseille */
-.activitySection {
-}
-
 .titleActivity {
   font-size: 1vw;
   margin-top: 50px;
@@ -391,7 +388,7 @@ nav a:hover {
 }
 
 .imgActivityCardLong {
-  height: 85%;
+  height: 89%;
   background-position: center;
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
@@ -419,9 +416,14 @@ aside {
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
 }
-
+.imgActivityCardUper {
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
 .imgActivityCard {
-  height: 70%;
+  height: 75%;
   background-position: center;
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
@@ -456,6 +458,7 @@ footer section h3 {
     font-family: Raleway-bold;
     font-size: 1.5em;
   }
+
   h2,
   h3 {
     font-family: Raleway-bold;
@@ -470,29 +473,36 @@ footer section h3 {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   nav {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
+
   nav a {
     color: #0065fc;
   }
+
   nav a:hover {
     color: #0065fc;
   }
+
   .titleActivity {
     font-size: 3vw;
     margin-top: 50px;
   }
+
   .titleActivityCard {
     font-family: Raleway-bold;
     font-size: 3vw;
   }
+
   .logoContainer {
     width: 40%;
     padding-left: 20px;
   }
+
   .register {
     order: 0;
     padding-top: 0px;
@@ -507,17 +517,20 @@ footer section h3 {
     font-family: Raleway-bold;
     font-size: 15px;
   }
+
   .register:hover {
     padding-top: 0px;
     border-top: none;
     border-bottom: none;
     color: rgba(117, 117, 117, 0.5);
   }
+
   .register a:hover {
     padding: 0px;
     margin: 0px;
     color: rgba(117, 117, 117, 0.5);
   }
+
   .underHeader {
     display: flex;
     justify-content: space-between;
@@ -527,6 +540,7 @@ footer section h3 {
     min-width: 100%;
     width: 100%;
   }
+
   .linkHeader {
     padding-top: 30px;
     padding-bottom: 10px;
@@ -535,6 +549,7 @@ footer section h3 {
     text-align: center;
     width: 100%;
   }
+
   .linkHeader a {
     font-size: 15px;
     color: rgba(117, 117, 117, 0.5);
@@ -546,6 +561,7 @@ footer section h3 {
     border-top: none;
     border-bottom: 2px solid #0065fc;
   }
+
   .linkHeader a:hover {
     padding-top: 30px;
     padding-bottom: 0px;
@@ -575,10 +591,12 @@ footer section h3 {
     width: 60px;
     margin-left: -15px;
   }
+
   .firstContainer {
     flex-direction: column;
     justify-content: center;
   }
+
   /* filter container */
   .containerFilter {
     justify-content: space-between;
@@ -591,11 +609,6 @@ footer section h3 {
 
   .toggleContaint p {
     font-size: 10px;
-  }
-
-  .infoDispo {
-    /* display: flex;
-    align-items: center; */
   }
 
   /* popular section */
@@ -626,6 +639,7 @@ footer section h3 {
   .titlePopularCard {
     font-size: 3vw;
   }
+
   .containtPopularCard section p {
     font-size: 3vw;
   }
@@ -637,20 +651,25 @@ footer section h3 {
     background-color: #fff;
     width: 100%;
   }
+
   .titleHoussing {
     margin-left: -40px;
   }
+
   .titleHoussing h2 {
     font-size: 4vw;
   }
+
   .groupOfCard {
     flex-direction: column;
     justify-content: center;
   }
+
   .houssingCard {
     margin-top: 20px;
     width: 100%;
   }
+
   .imgHoussingCard {
     min-width: 10px;
     height: 110px;
@@ -658,52 +677,63 @@ footer section h3 {
   .containtHoussingCard {
     padding-left: 15px;
   }
+
   .seeMore {
     margin-left: 0px;
   }
+
   /* Activity in Marseille */
   .activitySection {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .cardContainer {
     flex-direction: column;
     justify-content: center;
   }
+
   .cardGroupOne {
     flex-direction: column;
     justify-content: center;
     margin-right: 0px;
   }
+
   .cardGroupTwo {
     flex-direction: column;
     justify-content: center;
     margin-left: 0px;
   }
+
   .activityCardLong {
     width: 100%;
     height: 200px;
     margin-top: 20px;
   }
+
   .imgActivityCardLong {
-    height: 150px;
+    height: 80%;
   }
+
+  .imgActivityCardUper {
+    height: 80%;
+  }
+
   aside {
     width: 100%;
   }
+
   .activityCardUper {
     height: 200px;
     margin-top: 20px;
   }
+
   .activityCardDown {
     height: 200px;
     margin-top: 20px;
   }
 
-  .imgActivityCard {
-    /* height: 70%; */
-  }
   footer {
     flex-direction: column;
   }
@@ -713,37 +743,46 @@ footer section h3 {
   .firstContainer {
     flex-wrap: wrap;
   }
+
   .titlePopularContainer {
     justify-content: center;
   }
+
   .titlePopularContainer h2 {
     margin-right: 20px;
   }
+
   .popularSection {
     width: 100%;
     padding: 0px;
     width: 100%;
   }
+
   .containtPopSect {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 40px;
   }
+
   .popularCard {
     flex-direction: row;
     width: 30%;
   }
+
   .houssingContainer {
     margin-top: 40px;
     width: 100%;
   }
+
   .houssingCard {
     width: 250px;
   }
+
   .imgActivityCardLong {
     height: 90%;
   }
+
   .imgActivityCard {
     height: 80%;
   }
