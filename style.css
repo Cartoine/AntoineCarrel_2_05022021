@@ -72,6 +72,7 @@ p {
 header {
   margin-left: 40px;
   margin-right: 40px;
+  width: auto;
 }
 
 .logoContainer {
@@ -96,17 +97,20 @@ nav a:hover {
 .register {
   order: 1;
   padding-top: 30px;
+  width: auto;
 }
 
 .underHeader {
   display: flex;
-  justify-content: space-between;
-  width: 15%;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 20px;
 }
 
 .linkHeader {
   padding-top: 30px;
   margin-left: 40px;
+  width: auto;
 }
 
 .register:hover,
