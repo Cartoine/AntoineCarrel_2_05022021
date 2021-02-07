@@ -41,10 +41,357 @@ a {
 a:hover {
   color: #0065fc;
 }
-.cardHover:hover {
-  cursor: pointer;
+body {
+  font-size: 12px;
+}
+h1 {
+  font-family: Raleway-bold;
+  font-size: 1.5em;
+}
+h2,
+h3 {
+  font-family: Raleway-bold;
+}
+
+p {
+  font-size: 1em;
+}
+/* #linkHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+.containtNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoContainer {
+  width: 50%;
+}
+
+.signUp {
+  margin-right: 20px;
+  font-family: Raleway;
+  font-weight: 900;
   color: #0065fc;
-  box-shadow: 0px 0px 20px 0px #0065fc27;
+}
+.navHover {
+  margin-top: 30px;
+  padding-bottom: 14px;
+  width: 50%;
+  text-align: center;
+  border-bottom: 4px solid #f2f2f2;
+}
+.navHover:hover {
+  padding-bottom: 14px;
+  border-bottom: 4px solid #0065fc;
+}
+.navHover a {
+  padding-left: 20px;
+}
+/* container form */
+.containerForm {
+  display: flex;
+  /* justify-content: center; */
+  margin-top: 40px;
+}
+
+#containtForm {
+  display: flex;
+  align-content: center;
+  /* width: 100%; */
+  height: 7%;
+}
+.iconLocalisation {
+  background-image: url(img/icone/map-marker-alt-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px;
+  min-width: 20px;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.cityCherche {
+  border: 1px solid rgb(226, 226, 226);
+  border-color: #dadada;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  height: 100%;
+  width: 55%;
+}
+
+.submitRecherche {
+  background: #0065fc;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 0px 15px 15px 0px;
+  border: 1px solid #0065fc;
+  /* width: 60px; */
+  height: 100%;
+  /* margin-left: -15px; */
+}
+
+/* filter container */
+.containerFilter {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.toggleContaint {
+  border: 2px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  padding-right: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.toggleContaint p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1em;
+  font-family: Raleway-bold;
+}
+.toggleBtn {
+  background-color: #deebff;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.toggleBtn img {
+  width: 15px;
+}
+
+.infoDispo {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.infoDispo img {
+  width: 30px;
+  margin-right: 20px;
+}
+/* first container */
+.firstContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  /* padding: -30px; */
+}
+/* popular section */
+.popularSection {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.titlePopularContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+.share {
+  width: 20px;
+}
+
+.popularCard {
+  display: flex;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.imgCard {
+  max-width: 35%;
+  min-width: 35%;
+  /* width: 170px; */
+  /* min-width: 160px; */
+  height: 110px;
+  max-height: 250px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+}
+.containtPopularCard {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  /* background-color: red; */
+}
+.containtPopularCard section {
+  width: 100%;
+}
+.containtPopularCard section p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+/* houssing Marseille */
+.titlePopularCard {
+  font-family: Raleway-bold;
+  font-size: 1.4em;
+  margin-top: 5px;
+}
+.star {
+  display: flex;
+  margin-top: -10px;
+}
+.starCard {
+  width: 12px;
+}
+/* houssing Marseille */
+.houssingContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  width: 70%;
+}
+.houssingContainer h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-flex;
+}
+.groupOfCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+
+.houssingCard {
+  padding: 5px 5px 10px 5px;
+  border-radius: 15px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 18vw;
+}
+.imgHoussingCard {
+  max-width: 100%;
+  /* min-width: 200px; */
+  height: 110px;
+  /* max-height: 130px; */
+  background-position: center;
+  background-size: cover;
+  border: none;
+  border-radius: 15px 15px 0px 0px;
+}
+.containtHoussingCard {
+  font-size: 12px;
+  padding-left: 15px;
+}
+.containtHoussingCard p {
+  margin-top: -10px;
+}
+.seeMore {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 1.5em;
+  font-family: Raleway-bold;
+}
+
+/* Activity in Marseille */
+.activitySection {
+}
+.cardContainer {
+  display: flex;
+}
+.cardGroupOne {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 25px;
+}
+.cardGroupTwo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 25px;
+}
+.activityCardLong {
+  width: 42%;
+  height: 400px;
+  padding: 0px 0px 1px 0px;
+  border-radius: 15px;
+  /* margin-top: 20px; */
+  box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
+}
+.imgActivityCardLong {
+  height: 85%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.activityCardUper {
+  width: 100%;
+  height: 220px;
+  padding: 0px 0px 1px 0px;
+  border-radius: 15px;
+  /* margin-top: 20px; */
+  box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
+}
+.activityCardDown {
+  min-width: 100%;
+  height: 140px;
+  padding: 0px 0px 1px 0px;
+  border-radius: 15px;
+  /* margin-top: 20px; */
+  box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
+}
+
+.imgActivityCard {
+  height: 70%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.titleActivityCard {
+  font-family: Raleway-bold;
+  font-size: 1.4em;
+}
+
+footer {
+  padding: 10px 0px 20px 30px;
+  background-color: #f2f2f2;
+  /* margin-top: 5%; */
+}
+footer section {
+  margin-top: 50px;
+}
+footer section h3 {
+  font-family: Raleway-bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -53,7 +400,7 @@ a:hover {
   }
   h1 {
     font-family: Raleway-bold;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   h2,
   h3 {
@@ -61,7 +408,7 @@ a:hover {
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   #linkHeader {
     display: flex;
@@ -70,11 +417,10 @@ a:hover {
     align-items: center;
   }
   .containtNav {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-
+    /* align-items: center; */
     width: 100%;
   }
   .logoContainer {
@@ -82,38 +428,36 @@ a:hover {
   }
 
   .signUp {
-    margin-right: 20px;
-    font-family: Raleway;
-    font-weight: 900;
-    color: #0065fc;
+    font-size: 12px;
   }
-  .navHover {
+  /* .navHover {
     margin-top: 30px;
     padding-bottom: 14px;
     width: 50%;
     text-align: center;
     border-bottom: 4px solid #f2f2f2;
-  }
-  .navHover:hover {
+  } */
+  /* .navHover:hover {
     padding-bottom: 14px;
     border-bottom: 4px solid #0065fc;
-  }
-  .navHover a {
+  } */
+  /* .navHover a {
     padding-left: 20px;
-  }
+  } */
+  /* container form */
   .containerForm {
-    display: flex;
+    /* display: flex; */
+    /* margin-top: 40px; */
     justify-content: center;
-    margin-top: 40px;
   }
 
   #containtForm {
-    display: flex;
-    align-content: center;
+    /* display: flex; */
+    /* align-content: center; */
     width: 100%;
-    height: 7%;
+    /* height: 7%; */
   }
-  .iconLocalisation {
+  /* .iconLocalisation {
     background-image: url(img/icone/map-marker-alt-solid.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -123,16 +467,16 @@ a:hover {
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
     padding: 15px;
-  }
+  } */
 
   .cityCherche {
-    border: 1px solid rgb(226, 226, 226);
+    /* border: 1px solid rgb(226, 226, 226);
     border-color: #dadada;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 15px;
+    font-weight: bold; */
+    font-size: 12px;
+    /* padding: 15px;
     height: 100%;
-    width: 100%;
+    width: 55%; */
   }
 
   .submitRecherche {
@@ -149,7 +493,11 @@ a:hover {
     height: 100%;
     margin-left: -15px;
   }
-
+  .firstContainer {
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+  }
   /* filter container */
   .containerFilter {
     display: flex;
@@ -200,9 +548,12 @@ a:hover {
     flex-direction: column;
     align-content: space-around;
     background-color: #f2f2f2;
-    padding: 20px;
-    margin-right: -30px;
+    /* padding: 20px; */
+    padding-right: 30px;
+    padding-left: 30px;
     margin-left: -30px;
+    border-radius: 0px;
+    width: 100%;
   }
 
   .titlePopularContainer {
@@ -223,7 +574,8 @@ a:hover {
   }
 
   .imgCard {
-    min-width: 160px;
+    max-width: 30%;
+    /* min-width: 160px; */
     height: 110px;
     max-height: 250px;
     background-position: center;
@@ -262,7 +614,16 @@ a:hover {
   .houssingContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: space-around;
+    border-radius: 0px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .groupOfCard {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
   .houssingCard {
     padding: 5px 5px 10px 5px;
@@ -272,6 +633,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+    width: 100%;
   }
   .imgHoussingCard {
     min-width: 10px;
@@ -293,19 +655,62 @@ a:hover {
     font-family: Raleway-bold;
   }
   /* Activity in Marseille */
-  .imgActivityCard {
-    min-width: 100px;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+  .activitySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .activityCard {
+  .cardContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardGroupOne {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .cardGroupTwo {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .activityCardLong {
+    width: 100%;
+    height: 200px;
     padding: 0px 0px 1px 0px;
     border-radius: 15px;
     margin-top: 20px;
     box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 0.5);
   }
+  .imgActivityCardLong {
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+  }
+  aside {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    width: 100%;
+  }
+  .activityCardUper {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .activityCardDown {
+    min-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .imgActivityCard {
+    height: 70%;
+  }
+
   .titleActivityCard {
     font-family: Raleway-bold;
     font-size: 1.4em;
