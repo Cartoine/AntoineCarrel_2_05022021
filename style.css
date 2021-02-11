@@ -67,6 +67,16 @@ p {
   color: #0065fc;
   box-shadow: 0px 0px 20px 0px #0065fc27;
 }
+.toggleHover:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 5px 0px #0065fc, inset 4px 4px 15px 0px #0065fc,
+    -13px 5px 15px -9px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 5px 0px #0065fc, inset 4px 4px 15px 0px #0065fc85,
+    -13px 5px 15px -9px rgba(0, 0, 0, 0);
+}
+.toggleBtn:hover {
+  background-color: #000;
+}
 
 /* header */
 header {
@@ -91,7 +101,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgba(117, 117, 117, 0.5);
+  color: #0065fc;
 }
 
 .register {
@@ -111,6 +121,10 @@ nav a:hover {
   padding-top: 30px;
   margin-left: 40px;
   width: auto;
+}
+
+.linkHeader a {
+  color: #000;
 }
 
 .register:hover,
