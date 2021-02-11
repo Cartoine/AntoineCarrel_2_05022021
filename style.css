@@ -569,7 +569,7 @@ footer section h3 {
 
   .linkHeader a {
     font-size: 15px;
-    color: rgba(117, 117, 117, 0.5);
+    color: rgb(0, 0, 0);
   }
 
   .linkHeader:hover {
